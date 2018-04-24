@@ -12,27 +12,38 @@
 :: GOTO End1
 
 
-set app=%1
-set command=%2
+set app=%2
+set command=%1
+
+IF %command%==install GOTO Install
+IF %command%==remove GOTO Remove
 
 :: :No2
-for %%i in (%*) do (
+:: for %%i in (%*) do (
 ::  echo %%i
-  IF %%i==-i GOTO Info
-  IF %%i==-v GOTO Version
-  IF %%i==install GOTO Install
-)
+::   IF %%i==-i GOTO Info
+:: IF %%i==-v GOTO Version
+::   IF %%i==install GOTO Install
+:: )
 
-:Info
-  ECHO Info
-GOTO End1
+:: :Info
+:: ECHO Info
+:: GOTO End1
 
-:Version
+:: :Version
 ::  ECHO No param 2
-  .\os\version.bat
-GOTO End1
+::   .\os\version.bat
+:: GOTO End1
 
 :Install
+::  ECHO No param 2
+  for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
+
+  IF %v%==10.0 set ver=10
+  .\windows\%ver%\%app%\%command%.bat
+GOTO End1
+
+:Remove
 ::  ECHO No param 2
   for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
 
