@@ -1,5 +1,6 @@
 echo "Upgrade PHP to version 7.2 on Debian"
 php --version
+php --ini
 apt-get update -y
 apt-get upgrade -y
 apt-get autoremove -y
@@ -14,9 +15,9 @@ sudo apt-get install php7.1
 
 sudo apt-get install php7.1-cli php7.1-common php7.1-json php7.1-opcache php7.1-mysql php7.1-mbstring php7.1-mcrypt php7.1-zip php7.1-fpm
 
-a2dismod php7.2
+a2dismod php7.1
 
-a2enmod php7.1
+a2enmod php7.2
 
 sudo service apache2 restart
 
