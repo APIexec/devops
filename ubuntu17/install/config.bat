@@ -1,0 +1,1 @@
+:: Make a config file for info about folder for project, git, etc
