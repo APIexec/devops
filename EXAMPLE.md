@@ -1,3 +1,11 @@
+## Composer
+### Install
+devops.bat composer install
+devops.bat composer update
+devops.bat composer uninstall
+
+
+
 ## Install New Composer Module
 
 https://github.com/adamgoose/gitlab#installation

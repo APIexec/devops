@@ -12,14 +12,15 @@
 :: GOTO End1
 
 
+set app=%1
+set command=%2
+
 :: :No2
 for %%i in (%*) do (
 ::  echo %%i
   IF %%i==-i GOTO Info
   IF %%i==-v GOTO Version
-  set app=%%i
   IF %%i==install GOTO Install
-
 )
 
 :Info
@@ -34,8 +35,9 @@ GOTO End1
 :Install
 ::  ECHO No param 2
   for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
-::  set ver=%v%
-  echo .\windows\%v%\%app%\install.bat
+
+  IF %v%==10.0 set ver=10
+  .\windows\%ver%\%app%\%command%.bat
 GOTO End1
 
 :: -i
