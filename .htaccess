@@ -1,1 +1,2 @@
+#Redirect 302 / https://github.com/tom-sapletta-com/devops.git
 Redirect 302 / https://codeload.github.com/tom-sapletta-com/devops/zip/master

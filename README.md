@@ -10,14 +10,29 @@ Now, you can easy improve your skills at work day by day as a DevOps!
 More about history of creation
 [INSPIRATION](INSPIRATION.md)
 
+## Github Repository
+https://github.com/tom-sapletta-com/devops
+    
+http
+    
+    https://github.com/tom-sapletta-com/devops.git
+
+ssh
+    
+    git@github.com:tom-sapletta-com/devops.git
+    
+zip
+    
+    https://codeload.github.com/tom-sapletta-com/devops/zip/master
+
 ## How to download
 
-https://github.com/tom-sapletta-com/devops
-https://github.com/tom-sapletta-com/devops.git
-git@github.com:tom-sapletta-com/devops.git
-https://codeload.github.com/tom-sapletta-com/devops/zip/master
+#### git clone
 
+    git clone https://git.apicra.com
+    git clone https://github.com/tom-sapletta-com/devops
 
+#### download
 
     powershell -Command "Invoke-WebRequest https://get.apicra.com -OutFile apicra.zip"
  
@@ -26,6 +41,10 @@ https://codeload.github.com/tom-sapletta-com/devops/zip/master
     curl https://get.apicra.com -O apicra.zip
  
     %extd% /download https://get.apicra.com apicra.zip
+ 
+#### unpack
+ 
+    unzip -l apicra.zip
  
 ## How it works
 
