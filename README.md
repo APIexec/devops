@@ -49,15 +49,33 @@ Installation
 How to start Example project application
 [EXAMPLE](EXAMPLE.md)
 
-### Open in Browser
+    
+### Benefits
 
-    .\start\localhost.bat
-    .\start\browser.bat
-
+    Not depends platform and language
+    Open concept solution, open for extensions, modular architekture
+    Open Source 
+    Transparent licence and policy
+    For free
+    The open concept give you more benefits with comunity
+    Community: Help, Support
+    
+    Payable options
+    First Step before automatisation for home, work with IoT and much more
+    Without havy browser, etc
     
     
-
+    Developer
+        Can be install and used on IoT devices for faster implementation
     
-### Testing    
+    User
+        Can be used day by day for many tasks, and audio support 
     
-    .\start\phpunit.bat
+   
+    
+### Posibilities    
+    
+    Can be updated by documentation, half automatisation, with reviev and docker testing
+    
+    
+    
