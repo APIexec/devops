@@ -55,7 +55,13 @@ TODO: another examples
 Accesss to external API via command line
 
 #### Ask question based on environment in searching engine
+    
     devops.bat google how to install modules php
+    
+#### devops on remote VPS
+    
+    devops.bat myVPS devops maintenance install
+    devops.bat myVPS devops maintenance status 
 
 #### Check your tickets
 as default show opened tickets on gitlab
