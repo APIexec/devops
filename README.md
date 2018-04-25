@@ -1,4 +1,34 @@
-# DevOps Project Tool
+# DevOps Project Tool 
+    
+## Idea
+
+The idea is to share for You the easies way to start your new environment in programming World.
+Let's start your new project and enjoy!
+The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
+Now, you can easy improve your skills at work day by day as a DevOps!
+
+More about history of creation
+[INSPIRATION](INSPIRATION.md)
+
+## How to download
+
+https://github.com/tom-sapletta-com/devops
+https://github.com/tom-sapletta-com/devops.git
+git@github.com:tom-sapletta-com/devops.git
+https://codeload.github.com/tom-sapletta-com/devops/zip/master
+
+
+
+    powershell -Command "Invoke-WebRequest https://get.apicra.com -OutFile apicra.zip"
+ 
+    Invoke-WebRequest https://get.apicra.com -O apicra.zip
+ 
+    curl https://get.apicra.com -O apicra.zip
+ 
+    %extd% /download https://get.apicra.com apicra.zip
+ 
+## How it works
+
 url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or command
 
     devops.bat doc
@@ -12,19 +42,6 @@ url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or c
     devops.bat doc example
     
     devops.bat api google searching example
-    
-    
-## Idea
-
-The idea is to share for You the easies way to start your new environment in programming World.
-Let's start your new project and enjoy!
-The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
-Now, you can easy improve your skills at work day by day as a DevOps!
-
-More about history of creation
-[INSPIRATION](INSPIRATION.md)
- 
-## How it works
 
 ### Background
 For each problem is solution,

@@ -2,3 +2,6 @@
 .gitignore
 .idea/
 composer.phar
+app/icon/
+c2hat.bat
+/apicra.zip

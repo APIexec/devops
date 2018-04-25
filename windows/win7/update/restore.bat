@@ -1,1 +1,0 @@
-:: Restore the backup of application
