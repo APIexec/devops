@@ -28,9 +28,8 @@ zip
 ## How to download
 
 #### git clone
-
-    git clone https://git.apicra.com
-    git clone https://github.com/tom-sapletta-com/devops
+    
+    git clone http://github.com/tom-sapletta-com/devops
 
 #### download
 
