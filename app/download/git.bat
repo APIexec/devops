@@ -1,0 +1,1 @@
+git clone git://github.com/tom-sapletta-com/devops.git
