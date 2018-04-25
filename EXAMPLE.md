@@ -1,9 +1,16 @@
 ## Composer
-### Install
-devops.bat composer install
-devops.bat composer update
-devops.bat composer uninstall
 
+### Install
+
+    devops.bat composer install
+    devops.bat composer upgrade
+    devops.bat composer remove
+
+### Install with specified version
+
+    devops.bat php 5 install
+    devops.bat php 7.1 upgrade
+    devops.bat php 5 remove
 
 
 ## Install New Composer Module
