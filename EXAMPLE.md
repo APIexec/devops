@@ -51,6 +51,31 @@ TODO: another examples
     devops.bat php 5 remove
 
 
+## API
+Accesss to external API via command line
+
+#### Ask question based on environment in searching engine
+    devops.bat google how to install modules php
+
+#### Check your tickets
+as default show opened tickets on gitlab
+
+    devops.bat gitlab show tickets
+    
+or
+
+    devops.bat gitlab show closed tickets
+    
+or
+    
+    devops.bat gitlab show my tickets
+
+or
+    
+    devops.bat gitlab show tomasz tickets        
+     
+    
+
 ## Install New Composer Module
 
 https://github.com/adamgoose/gitlab#installation

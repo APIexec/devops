@@ -7,6 +7,9 @@ The idea is to share for You the easies way to start your new environment in pro
 Let's start your new project and enjoy!
 The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
 Now, you can easy improve your skills at work day by day as a DevOps!
+
+More about history of creation
+[INSPIRATION](INSPIRATION.md)
  
 ## How it works
 
@@ -31,13 +34,16 @@ Installation
     devops.bat composer install    
 
 How to start Example project application
-[Example](EXAMPLE.md)
+[EXAMPLE](EXAMPLE.md)
 
 ### Open in Browser
 
     .\start\localhost.bat
     .\start\browser.bat
-        
+
+    
+    
+
     
 ### Testing    
     

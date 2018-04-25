@@ -1,5 +1,11 @@
-@echo off
+@ECHO OFF &SETLOCAL
 :: Detect system
+
+SET /a count=5
+for %%a in (%*) do (
+    IF NOT %%a==google call set "qu=%%qu%%+%%a"
+)
+::ECHO %Myvar:~2%
 
 
 :: Start script from dedicated system
@@ -11,12 +17,24 @@
 :: ... do stuff...
 :: GOTO End1
 
+:: setlocal enabledelayedexpansion
+::set qu=
+::for %%i in (%*) do (
+::    set qu=%qu%+%%i
+::)
 
+::for %%I IN (%*) DO set qu=%qu% %%I
+:: ECHO !qu!
+
+set os=windows
 set app=%1
 set command=%2
+set query=%3
 
-echo .\windows\%ver%\%app%\%command%.bat
+::echo .\windows\%ver%\%app%\%command%.bat
 
+
+IF %app%==google GOTO API
 IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
 IF %command%==remove GOTO Remove
@@ -59,6 +77,19 @@ GOTO End1
   IF %v%==10.0 set ver=10
   .\windows\%ver%\%app%\%command%.bat
 GOTO End1
+
+
+:API
+
+  for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
+
+  set com=.\api\%app%\%command%.bat %os%+%v%%qu%
+  echo %com%
+  call %com%
+::  .\api\%app%\%command%.bat %os%+%v%%qu%
+GOTO End1
+
+:: devops.bat api google how create+file+in+bash
 
 :: -i
 :: --info
