@@ -3,6 +3,17 @@ url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or c
 
     devops.bat doc
 
+    devops.bat doc api
+    
+    devops.bat api google doc
+    
+    devops.bat api google searching doc
+    
+    devops.bat doc example
+    
+    devops.bat api google searching example
+    
+    
 ## Idea
 
 The idea is to share for You the easies way to start your new environment in programming World.
