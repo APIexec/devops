@@ -1,5 +1,7 @@
 # DevOps Project Tool
-https://github.com/tom-sapletta-com/devops
+url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or command
+
+    devops.bat doc
 
 ## Idea
 

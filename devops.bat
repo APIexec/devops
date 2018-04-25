@@ -33,7 +33,7 @@ set query=%3
 
 ::echo .\windows\%ver%\%app%\%command%.bat
 
-
+IF %app%==doc call .\doc.bat
 IF %app%==google GOTO API
 IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
