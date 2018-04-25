@@ -12,3 +12,13 @@ a wlasnie w tym momencie wszyscy koledzy sa zajeci...
 Pomyslalem, jak dobrze by bylo miec takie narzedzie do rozwiazywania powtarzalnych problemow 
 
 od zawsze zapisywalem krok po kroku zmiany jakie 
+
+
+Rozwiazanie proste, transparentne, 
+mozliwe do zmiany i dodawania nowych skryptow dla kazdego poczatkujacego
+
+
+tutorial dla uzywajacych tego narzedzia
+
+screen imgae animation dla tych, ktorzy by chcieli tego uzywac, lub maja pytania
+

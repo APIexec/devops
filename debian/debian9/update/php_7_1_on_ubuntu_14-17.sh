@@ -1,4 +1,4 @@
-echo "Upgrade PHP to version 7.2 on Ubuntu"
+echo "Upgrade PHP to version 7.0.2 on Ubuntu"
 php --version
 apt-get update -y
 apt-get upgrade -y

@@ -1,4 +1,4 @@
-echo "Upgrade PHP to version 7.2 on Debian"
+echo "Upgrade PHP to version 7.0.2 on Debian"
 php --version
 php --ini
 apt-get update -y
