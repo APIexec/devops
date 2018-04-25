@@ -8,16 +8,27 @@ Let's start your new project and enjoy!
 The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
 Now, you can easy improve your skills at work day by day as a DevOps!
  
+## How it works
 
-## Install PHP Environment
+### Background
+For each problem is solution,
+the main Problem is when you as developer has no knowledge about some application
+The basic model is you are looking for some info in internet by search engine on your browser
+after that you are looking for some information about how to install on your current environment, 
+after that you are looking for some version which you want, generalle the most fresh or stable
 
-    
-### Laravel documentation
+## How to use
+What you can install
 
-https://laravel.com/docs/4.2
+    devops.bat list
 
+Documentaion the software which you want install
 
-## Start Application
+    devops.bat composer doc
+
+Installation
+
+    devops.bat composer install    
 
 How to start Example project application
 [Example](EXAMPLE.md)

@@ -12,9 +12,10 @@
 :: GOTO End1
 
 
-set app=%2
-set command=%1
+set app=%1
+set command=%2
 
+IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
 IF %command%==remove GOTO Remove
 
@@ -47,6 +48,12 @@ GOTO End1
 ::  ECHO No param 2
   for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
 
+  IF %v%==10.0 set ver=10
+  .\windows\%ver%\%app%\%command%.bat
+GOTO End1
+
+
+:Documentation
   IF %v%==10.0 set ver=10
   .\windows\%ver%\%app%\%command%.bat
 GOTO End1
