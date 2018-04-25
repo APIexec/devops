@@ -5,4 +5,6 @@
 * CI on github
 * Integration with ProjektManager
 
+* Script to exe and linux package converter
+
 
