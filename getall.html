@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="softreck">
+<head>
+    <title>Apicra</title>
+    <meta name='copyright' content='Copyright 2018. Apicra. All Rights Reserved.'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<script>
+
+    var links = [
+        'https://codeload.github.com/tom-sapletta-com/devops/zip/master',
+        'https://codeload.github.com/tom-sapletta-com/devops/zip/master'
+    ];
+
+    function downloadAll(urls) {
+        var link = document.createElement('a');
+
+        link.setAttribute('download', null);
+        link.style.display = 'none';
+
+        document.body.appendChild(link);
+
+        for (var i = 0; i < urls.length; i++) {
+            link.setAttribute('href', urls[i]);
+            link.click();
+        }
+
+        document.body.removeChild(link);
+    }
+
+    downloadAll(window.links);
+
+
+</script>
+
+<div class="page-container">
+    <!-- start: PAGE HEADER-->
+    <div class="page-header-wrapper">
+        <div class="page-header">
+            <a class="product-logo" href="https://www.apicra.com/" target="_blank">
+                <img src="img/logo.png" alt="Apicra">
+            </a>
+        </div>
+    </div>
+    <!-- end: PAGE HEADER-->
+
+    <button onclick="downloadAll(window.links)">Download All Files by One Click!</button>
+
+    <!-- start: PAGE FOOTER-->
+    <div class="page-footer-wrapper">
+        <div class="page-footer">
+            Made by <a href="https://www.Apicra.com" target="_blank">Apicra</a>
+            <span class="separator"></span>
+            <a href="https://www.apicra.com" target="_blank" class="copyright">© 2018 Apicra. All rights reserved.</a>
+        </div>
+    </div>
+    <!-- end: PAGE FOOTER-->
+</div>
+
+</body>
+</html>
