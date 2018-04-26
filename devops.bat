@@ -83,7 +83,10 @@ GOTO End1
 
   for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
 
-  set com=.\api\public\%app%\%command%.bat %os%+%v%%qu%
+:: https://stackoverflow.com/questions/203090/how-do-i-get-current-datetime-on-the-windows-command-line-in-a-suitable-format
+  set year=get-date -format "{yyyy}"
+
+  set com=.\api\public\%app%\%command%.bat year+%os%+%v%%qu%
   echo %com%
   call %com%
 ::  .\api\%app%\%command%.bat %os%+%v%%qu%
