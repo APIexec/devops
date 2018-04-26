@@ -27,6 +27,29 @@ zip
 
 ## How to download
 
+### special multi download
+
+http://getall.apicra.com/
+
+* unpack.sh
+* unpack.bat
+* devops.zip
+
+After download, please execute one of file, depends OS
+Linux
+
+    unpack.sh
+    
+Windows
+    
+    unpack.bat
+ 
+And execute in console:
+
+He will unzip the files, if is not existing some solution for unpack, he will try to install on PC
+On he and will be possible to start app:
+[START](START.md)
+
 #### git clone
     
     git clone http://github.com/tom-sapletta-com/devops
