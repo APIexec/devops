@@ -1,0 +1,6 @@
+{
+  "name": "production server",
+  "hostname": "100.200.100.200",
+  "username": "test",
+  "password": "test"
+}

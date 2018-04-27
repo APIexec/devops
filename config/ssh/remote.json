@@ -1,0 +1,6 @@
+{
+  "name": "remote server",
+  "hostname": "localhost",
+  "username": "test",
+  "password": "test"
+}
