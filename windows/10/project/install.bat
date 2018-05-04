@@ -1,0 +1,1 @@
+:: Install new module

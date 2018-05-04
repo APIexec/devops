@@ -31,13 +31,20 @@ set app=%1
 set command=%2
 set query=%3
 
+for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
+IF %v%==10.0 set ver=10
+
 ::echo .\windows\%ver%\%app%\%command%.bat
 
 IF %app%==doc call .\doc.bat
 IF %app%==google GOTO API
+IF %app%==create GOTO Create
+IF %app%==demo GOTO Demo
+
 IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
 IF %command%==remove GOTO Remove
+
 
 :: :No2
 :: for %%i in (%*) do (
@@ -56,19 +63,19 @@ IF %command%==remove GOTO Remove
 ::   .\os\version.bat
 :: GOTO End1
 
-:Install
-::  ECHO No param 2
-  for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
+:Demo
+   .\windows\%ver%\%command%\%app%.bat
+GOTO End1
 
-  IF %v%==10.0 set ver=10
+:Create
+   .\windows\%ver%\%command%\%app%.bat
+GOTO End1
+
+:Install
    .\windows\%ver%\%app%\%command%.bat
 GOTO End1
 
 :Remove
-::  ECHO No param 2
-  for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
-
-  IF %v%==10.0 set ver=10
   .\windows\%ver%\%app%\%command%.bat
 GOTO End1
 
