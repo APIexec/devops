@@ -1,4 +1,9 @@
 # DevOps Project Tool 
+
+## More about DEVOPS    
+
+https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
+https://github.com/TechBookHunter/Free-DevOps-Books
     
 ## Idea
 
