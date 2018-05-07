@@ -26,25 +26,26 @@ for %%a in (%*) do (
 ::for %%I IN (%*) DO set qu=%qu% %%I
 :: ECHO !qu!
 set os=windows
-set app=%1
-set command=%2
+::set "app="
+set app=%2
+::set "command="
+set command=%1
 set query=%3
+set devops_path=C:\Users\tomaszsapletta\WebstormProjects\devops
 
 for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
 IF %v%==10.0 set ver=10
 
 ::echo .\windows\%ver%\%app%\%command%.bat
 
-IF %app%=="" DO app=devops
+IF %app%=="" %command%=="" GOTO DevopsDocumentation
+:: set app=devops
+::
 
 IF %app%==doc call .\doc.bat
 IF %app%==google GOTO API
 IF %app%==create GOTO Create
 IF %app%==demo GOTO Demo
-
-
-IF %command%=="" set command=doc
-
 
 IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
@@ -80,15 +81,26 @@ GOTO End1
 GOTO End1
 
 :Install
-   .\windows\%ver%\%app%\%command%.bat
+    set app_path=%devops_path%\windows\%ver%\%app%
+    IF NOT EXIST %app_path% GOTO PathNotExist
+    set app_path_file=%app_path%\%command%.bat
+    IF NOT EXIST %app_path_file% GOTO PathNotExist
+    call %app_path_file%
 GOTO End1
 
 :Remove
-    set com=.\windows\%ver%\%app%\%command%.bat
+    set com=%devops_path%\windows\%ver%\%app%\%command%.bat
     echo %com%
     call %com%
 GOTO End1
 
+
+:DevopsDocumentation
+  IF %v%==10.0 set ver=10
+  set com=%devops_path%"\windows\%ver%\devops\doc.bat"
+  echo %com%
+  call %com%
+GOTO End1
 
 :Documentation
   IF %v%==10.0 set ver=10
@@ -109,6 +121,11 @@ GOTO End1
   echo %com%
   call %com%
 ::  .\api\%app%\%command%.bat %os%+%v%%qu%
+GOTO End1
+
+:PathNotExist
+    echo " APth of APP not exist: "%app_path%
+    echo " APth of APP not exist: "%app_path_file%
 GOTO End1
 
 :: devops.bat api google how create+file+in+bash
