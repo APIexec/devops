@@ -25,7 +25,6 @@ for %%a in (%*) do (
 
 ::for %%I IN (%*) DO set qu=%qu% %%I
 :: ECHO !qu!
-
 set os=windows
 set app=%1
 set command=%2
@@ -76,7 +75,9 @@ GOTO End1
 GOTO End1
 
 :Remove
-  .\windows\%ver%\%app%\%command%.bat
+    set com=.\windows\%ver%\%app%\%command%.bat
+    echo %com%
+    call %com%
 GOTO End1
 
 
