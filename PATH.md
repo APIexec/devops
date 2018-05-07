@@ -1,0 +1,52 @@
+## Implementation of shortcut
+shortcut for windows
+DevOps -> DO.bat -> do
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
+    
+    doskey do="C:\Users\***\WebstormProjects\devops\devops.bat" $*    
+
+#### Create shortcut
+Create a batch file named Q.bat in C:\Windows\System32
+Edit the batch file, type 'Exit' and save the file
+
+#### PATH
+Debian
+Bash Shell
+Modify PATH variable
+    
+    PATH=/usr/local/jdk1.8.0/bin:$PATH
+     
+export PATH
+Save and close the file
+Load the startup file
+    
+    % . /.profile
+    
+Verify that the path is set by repeating the java command
+    
+    % java -version
+
+#### Windows
+    
+    set PATH=%PATH%;C:\xampp\php
+
+#### Windows 7,8
+    
+    setx path "%path%;C:\Program Files (x86)\Git\bin\"
+
+https://www.computerhope.com/pathhlp.htm
+    PATH [[drive:]path[;...]]
+    PATH ;
+    
+    path
+    path=c:\windows\command
+    
+####
+http://www.instructables.com/id/How-to-Create-your-own-Commands-with-Batch/
+
+Now place it in whatever directory you like and add the directory to PATH in your User variables.
+
+    
+    do doc
+    
+    do install composer

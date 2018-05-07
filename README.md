@@ -84,22 +84,9 @@ url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or c
     
     devops.bat api google searching example
 
-####
-shortcut for windows
-DevOps -> DO.bat -> do
-https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
-    
-    doskey do="C:\Users\***\WebstormProjects\devops\devops.bat" $*    
+#### Shortcut with [PATH](PATH.md)
 
-#### Create shortcut
-Create a batch file named Q.bat in C:\Windows\System32
-Edit the batch file, type 'Exit' and save the file
-
-####
-http://www.instructables.com/id/How-to-Create-your-own-Commands-with-Batch/
-
-Now place it in whatever directory you like and add the directory to PATH in your User variables.
-
+#### Example with Shortcut
     
     do doc
     

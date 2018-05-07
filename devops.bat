@@ -35,10 +35,16 @@ IF %v%==10.0 set ver=10
 
 ::echo .\windows\%ver%\%app%\%command%.bat
 
+IF %app%=="" DO app=devops
+
 IF %app%==doc call .\doc.bat
 IF %app%==google GOTO API
 IF %app%==create GOTO Create
 IF %app%==demo GOTO Demo
+
+
+IF %command%=="" set command=doc
+
 
 IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
@@ -67,7 +73,10 @@ IF %command%==remove GOTO Remove
 GOTO End1
 
 :Create
-   .\windows\%ver%\%command%\%app%.bat
+   ::.\windows\%ver%\%command%\%app%.bat
+   set com=".\windows\%ver%\%app%\%command%.bat" $*
+   echo %com%
+   call %com%
 GOTO End1
 
 :Install
@@ -83,7 +92,9 @@ GOTO End1
 
 :Documentation
   IF %v%==10.0 set ver=10
-  .\windows\%ver%\%app%\%command%.bat
+  set com=".\windows\%ver%\%app%\%command%.bat" $*
+  echo %com%
+  call %com%
 GOTO End1
 
 
