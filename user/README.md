@@ -6,10 +6,10 @@ User can use multiple systems.
 
 Depends user can be different settings
 
-admin
-webmaster
-worker
-ftpuser
-winadmin
-home_user
-work_user
+* admin
+* webmaster
+* worker
+* ftpuser
+* winadmin
+* home_user
+* work_user

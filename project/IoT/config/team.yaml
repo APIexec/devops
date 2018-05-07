@@ -1,0 +1,4 @@
+users:
+  tom:
+    role: admin
+    local: de
