@@ -32,7 +32,7 @@ shortcut for windows
 DevOps -> DO.bat -> do
 https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/doskey
     
-    doskey do="C:\Users\***\WebstormProjects\devops\devops.bat" $*    
+    doskey do="C:\Users\***\WebstormProjects\devops\devops.bat" $*
 
 #### Create shortcut
 Create a batch file named Q.bat in C:\Windows\System32
@@ -62,6 +62,7 @@ Verify that the path is set by repeating the java command
 #### Windows 7,8
     
     setx path "%path%;C:\Program Files (x86)\Git\bin\"
+    setx path "%path%;C:\
 
 https://www.computerhope.com/pathhlp.htm
     PATH [[drive:]path[;...]]

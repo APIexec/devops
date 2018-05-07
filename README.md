@@ -85,6 +85,9 @@ url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or c
     devops.bat api google searching example
 
 #### Shortcut with [PATH](PATH.md)
+    
+    setx path "%path%;C:\Users\tomaszsapletta\WebstormProjects\devops
+    call doskey do="C:\Users\tomaszsapletta\WebstormProjects\devops\devops.bat" $*
 
 #### Example with Shortcut
     

@@ -1,6 +1,13 @@
 @ECHO OFF &SETLOCAL
-:: Detect system
+:: set default path
 
+:: change Color
+:: COLOR [background][foreground]
+::call color 02
+::call color 0A
+call color 1F
+
+:: Detect system
 SET /a count=5
 for %%a in (%*) do (
     IF NOT %%a==google call set "qu=%%qu%%+%%a"
@@ -31,16 +38,28 @@ set app=%2
 ::set "command="
 set command=%1
 set query=%3
+set user_home_path=%USERPROFILE%
+set user_path=%homepath%
+set user_name=%homepath%
+set os_partition=%systemdrive%
+set os_path=%systemdrive%%homepath%
 set devops_path=C:\Users\tomaszsapletta\WebstormProjects\devops
 
 for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
 IF %v%==10.0 set ver=10
 
 ::echo .\windows\%ver%\%app%\%command%.bat
+echo [101;93m DEVOPS [0m
+echo regular text \[\033[0;32m\] green text \[\033[m\] regular text again
 
 IF %app%=="" %command%=="" GOTO DevopsDocumentation
 :: set app=devops
 ::
+
+set app_path=%devops_path%\windows\%ver%\%app%
+IF NOT EXIST %app_path% GOTO PathNotExist
+set app_path_file=%app_path%\%command%.bat
+IF NOT EXIST %app_path_file% GOTO PathNotExist
 
 IF %app%==doc call .\doc.bat
 IF %app%==google GOTO API
@@ -81,10 +100,7 @@ GOTO End1
 GOTO End1
 
 :Install
-    set app_path=%devops_path%\windows\%ver%\%app%
-    IF NOT EXIST %app_path% GOTO PathNotExist
-    set app_path_file=%app_path%\%command%.bat
-    IF NOT EXIST %app_path_file% GOTO PathNotExist
+    cls
     call %app_path_file%
 GOTO End1
 
@@ -96,6 +112,7 @@ GOTO End1
 
 
 :DevopsDocumentation
+  cls
   IF %v%==10.0 set ver=10
   set com=%devops_path%"\windows\%ver%\devops\doc.bat"
   echo %com%
@@ -103,6 +120,7 @@ GOTO End1
 GOTO End1
 
 :Documentation
+  cls
   IF %v%==10.0 set ver=10
   set com=".\windows\%ver%\%app%\%command%.bat" $*
   echo %com%
