@@ -15,6 +15,54 @@ Now, you can easy improve your skills at work day by day as a DevOps!
 More about history of creation
 [INSPIRATION](INSPIRATION.md)
 
+
+### Your Platform 
+![Platform](doc/img/icons8-pallet-100.png) 
++ Windows? 
++ Linux?
++ Mac OS?
+
+The DevOps Tool is not depends platform
+
+### Download
+![Download](doc/img/icons8-download-100.png)
+
+### Init
+
+### Just do it
+
+    do install composer
+
+
+### Architekture
+
+#### Layers
+![layers](doc/img/icons8-layers-filled-100.png)
+
+* System OS, Protocoll
+* Task, Apk
+* Script to execute
+* Handler, Events to reuse
+
+#### Script Application
+![Apk](doc/img/icons8-apk-100.png)
+
+Each Script works as an Application, whic can be started, stopped, ...
+Commmands:
+##### Install
+![Install](doc/img/icons8-downloading-updates-96.png)
+##### Remove
+![remove](doc/img/icons8-close-window-100.png)
+##### Start
+![start](doc/img/icons8-start-100.png)
+##### Stop
+![stop](doc/img/icons8-home-button-100.png)
+##### ReStart
+![restart](doc/img/icons8-restart-100.png)
+
+
+
+
 ## Github Repository
 https://github.com/tom-sapletta-com/devops
     
