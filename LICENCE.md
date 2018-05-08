@@ -1,6 +1,11 @@
 We are using free solutions for devops tool:
 
-Images:
+## logo
+http://www.bagill.com/ascii-sig.php
+Cybermedium
+180px
+
+## Images:
 https://icons8.com/icon/11943/cardboard-box
 
 ![Apk](doc/img/icons8-apk-100.png)
@@ -20,3 +25,4 @@ https://icons8.com/icon/11943/cardboard-box
 ![remove](doc/img/icons8-close-window-100.png)
 ![Pause](doc/img/icons8-pause-button-100.png)
 ![Install](doc/img/icons8-downloading-updates-96.png)
+
