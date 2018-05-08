@@ -1,14 +1,12 @@
-# DevOps Project Tool 
+    ___  ____ _  _ ____ ___  ____ 
+    |  \ |___ |  | |  | |__] [__  
+    |__/ |___  \/  |__| |    ___] 
+    
+    DevOps Project Tool
 
-For each problem is solution,
-the main Problem is when you as developer has no knowledge about some application
-
-## What is DEVOPS    
-
-+ https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
-+ https://github.com/TechBookHunter/Free-DevOps-Books
-
-## Solving Problem way, Questions, Solutions
+## The Idea of DevOps Tool
+The idea is to share for each other the easiest way to start use the new technologies in programming World.
++ For each problem is existing and tested solution -> Save Time by using DevOps Tool
 The cases when you are looking for solutions
 
 The New Environment
@@ -18,15 +16,15 @@ The New Environment
 The Old Environment 
 + are you looking for some version which is working, stable and usable?
 
-    
-## The Idea of DevOps Tool
+## What is DEVOPS    
 
-The idea is to share for each other the easiest way to start use the new technologies in programming World.
++ https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
++ https://github.com/TechBookHunter/Free-DevOps-Books
 
-### More about history of creation 
+#### More about history of creation 
 [INSPIRATION](INSPIRATION.md)
 
-### What is Your Platform Today, what will be tommorow? 
+## What is Your Platform Today, what will be tommorow? 
 ![Platform](doc/img/icons8-pallet-100.png) 
 + Windows? 
 + Linux?
