@@ -1,4 +1,19 @@
+## Github Repository
+https://github.com/tom-sapletta-com/devops
+    
+http
+    
+    https://github.com/tom-sapletta-com/devops.git
 
+ssh
+    
+    git@github.com:tom-sapletta-com/devops.git
+    
+zip
+    
+    https://codeload.github.com/tom-sapletta-com/devops/zip/master
+    
+    
 ##### over windows or Linux
 
     powershell -Command "Invoke-WebRequest https://get.apicra.com -OutFile apicra.zip"

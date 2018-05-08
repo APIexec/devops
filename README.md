@@ -36,46 +36,34 @@ The Old Environment
 
 The DevOps Tool is not depend platform
 
-
-## Github Repository
-https://github.com/tom-sapletta-com/devops
-    
-http
-    
-    https://github.com/tom-sapletta-com/devops.git
-
-ssh
-    
-    git@github.com:tom-sapletta-com/devops.git
-    
-zip
-    
-    https://codeload.github.com/tom-sapletta-com/devops/zip/master
-    
-### Download
+### How to start
 ![Download](doc/img/icons8-download-100.png)
 
-How to download from github repository ?
-
-#### git clone
-    
+##### Clone by Git
+   
     git clone http://github.com/tom-sapletta-com/devops
 
-More ways to [INSTALL](INSTALL.md)
+##### OR download & unpack
 
-#### Initialisation
-shortcut with [PATH](PATH.md)
+[How to download & install from github repository](INSTALL.md)
+
+
+### Init
+Create the 'do' shortcut with [PATH](PATH.md)
 try to use own extension if 'do' is busy on your system
     
     init.bat
        
-### Just do it
+### First command 
 Now, you can easy improve your skills at work day by day as a DevOps!
 Let's start your new project and enjoy!
++ Just do it
+
 
     do
     do info
     do install composer
+    do remove composer
 
 ### Architecture
 The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
