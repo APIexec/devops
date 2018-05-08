@@ -5,7 +5,9 @@ more %devops_path%\doc\logo\soft.txt
 echo DevOps Project Tool
 echo.
 echo Initialisation ...
-setx path "%path%;C:\Users\tomaszsapletta\WebstormProjects\devops
-call doskey do="C:\Users\tomaszsapletta\WebstormProjects\devops\devops.bat" $*
+SET var=%cd%
+ECHO %var%
+setx path "%path%;%var%
+call doskey do=%var%"\devops.bat" $*
 echo.
 echo Enjoy!

@@ -20,7 +20,11 @@ What is Your Platform Today, what will be tommorow?
 ##### Clone by Git
    
     git clone http://github.com/tom-sapletta-com/devops
-
+    cd devops
+    
+###### Update Files
+    git pull origin master
+        
 ##### OR download & unpack
 
 [How to download & install from github repository](INSTALL.md)
