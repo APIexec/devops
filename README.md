@@ -23,6 +23,9 @@ What is Your Platform Today, what will be tommorow?
     cd devops
     
 ###### Update Files
+    update.bat 
+OR
+    
     git pull origin master
         
 ##### OR download & unpack
