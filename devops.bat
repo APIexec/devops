@@ -1,5 +1,6 @@
 @ECHO OFF &SETLOCAL
 ::set devops_path=%cd%\devops
+echo %HOMEPATH%\path.txt
 
 setlocal enableextensions enabledelayedexpansion
 set firstLine=1
