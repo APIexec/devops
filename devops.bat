@@ -75,14 +75,16 @@ IF %v%==10.0 set ver=10
 
 ::echo .\windows\%ver%\%app%\%command%.bat
 
+:: One Param Command
+IF %command%==home GOTO Home
 IF %app%=="" %command%=="" GOTO DevopsDocumentation
 :: set app=devops
 ::
 
-IF %command%==home GOTO Home
-IF %command%==doc GOTO Documentation
 
 
+
+:: Multi Paramn Command
 set app_path=%devops_path%\windows\%ver%\%2
 IF NOT EXIST %app_path% GOTO PathNotExist
 set app_path_file=%app_path%\%1.bat
@@ -98,7 +100,7 @@ IF %command%==create GOTO Create
 IF %command%==install GOTO Install
 IF %command%==remove GOTO Remove
 IF %command%==on GOTO Source
-
+IF %command%==doc GOTO Documentation
 
 :: :No2
 :: for %%i in (%*) do (
