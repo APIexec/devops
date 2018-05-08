@@ -1,5 +1,6 @@
 @ECHO OFF &SETLOCAL
 set devops_path=%cd%
+echo devops_path
 
 more %devops_path%\doc\logo\soft.txt
 echo DevOps Project Tool
@@ -11,3 +12,4 @@ setx path "%path%;%var%
 call doskey do=%var%"\devops.bat" $*
 echo.
 echo Enjoy!
+cd devops_path
