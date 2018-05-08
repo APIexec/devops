@@ -3,7 +3,7 @@ set devops_path=%cd%\devops
 
 setlocal enableextensions enabledelayedexpansion
 set firstLine=1
-for /f "delims=" %%i in (path.txt) do (
+for /f "delims=" %%i in (%HOMEPATH%\path.txt) do (
     if !firstLine!==1 set devops_path=%%i
     set firstLine=0
 )

@@ -8,7 +8,7 @@ echo.
 echo Initialisation ...
 SET var=%cd%
 ::path
-echo %var% > path.txt
+echo %var% > %HOMEPATH%\path.txt
 
 ECHO %var%
 setx path "%path%;%var%"
