@@ -8,8 +8,6 @@ https://github.com/TechBookHunter/Free-DevOps-Books
 ## Idea
 
 The idea is to share for You the easies way to start your new environment in programming World.
-Let's start your new project and enjoy!
-The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
 Now, you can easy improve your skills at work day by day as a DevOps!
 
 More about history of creation
@@ -88,6 +86,7 @@ On he and will be possible to start app:
 [START](START.md)
 
 ### How to use?
+Let's start your new project and enjoy!
 
 ### Just do it
 
@@ -96,6 +95,7 @@ On he and will be possible to start app:
     do install composer
 
 ### Architekture
+The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
 
 #### Layers
 ![layers](doc/img/icons8-layers-filled-100.png)
