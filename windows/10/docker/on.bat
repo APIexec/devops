@@ -24,7 +24,7 @@ echo.
 docker exec -i %params%
 
 :List
-
+::windows bash  How to read all lines of a file into a bash array
 call docker ps --format "{{.Names}}" > result.txt
 IFS=$'\n' read -d '' -r -a lines < result.txt
 echo "${lines[@]}"
