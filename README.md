@@ -35,9 +35,8 @@ try to use own extension if 'do' is busy on your system
 ### First command 
 Now, you can easy improve your skills at work day by day as a DevOps!
 Let's start your new project and enjoy!
-+ Just do it
-
-
+Just do it
+     
     do
     do info
     do install composer
