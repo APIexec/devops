@@ -7,9 +7,7 @@ https://github.com/TechBookHunter/Free-DevOps-Books
     
 ## Idea
 
-The idea is to share for You the easies way to start your new environment in programming World.
-Now, you can easy improve your skills at work day by day as a DevOps!
-
+The idea is to share for each other the easiest way to start use the new technologies in programming World.
 More about history of creation
 [INSPIRATION](INSPIRATION.md)
 
@@ -20,7 +18,7 @@ More about history of creation
 + Linux?
 + Mac OS?
 
-The DevOps Tool is not depends platform
+The DevOps Tool is not depend platform
 
 
 ## Github Repository
@@ -86,6 +84,7 @@ On he and will be possible to start app:
 [START](START.md)
 
 ### How to use?
+Now, you can easy improve your skills at work day by day as a DevOps!
 Let's start your new project and enjoy!
 
 ### Just do it
@@ -94,7 +93,7 @@ Let's start your new project and enjoy!
     do info
     do install composer
 
-### Architekture
+### Architecture
 The library give you scripts to execute step on your new PC with Windows or Linux the basic environment with examples
 
 #### Layers
