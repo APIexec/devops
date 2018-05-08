@@ -120,7 +120,7 @@ IF %command%==doc GOTO Documentation
 :: GOTO End1
 
 :Home
-call cd %devops_path%
+cd %devops_path%
 GOTO End1
 
 :Demo
