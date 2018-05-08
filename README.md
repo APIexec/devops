@@ -5,26 +5,26 @@ the main Problem is when you as developer has no knowledge about some applicatio
 
 ## What is DEVOPS    
 
-https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
-https://github.com/TechBookHunter/Free-DevOps-Books
++ https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
++ https://github.com/TechBookHunter/Free-DevOps-Books
 
 ## Solving Problem way, Questions, Solutions
 The cases when you are looking for solutions
 
-+ The New Environment
-are you looking for some information about the environment?
-how to install on your current system?
+The New Environment
++ are you looking for some information about the environment?
++ how to install on your current system?
 
-+ The Old Environment 
-are you looking for some version which is working, stable and usable?
+The Old Environment 
++ are you looking for some version which is working, stable and usable?
 
     
 ## The Idea of DevOps Tool
 
 The idea is to share for each other the easiest way to start use the new technologies in programming World.
-More about history of creation
-[INSPIRATION](INSPIRATION.md)
 
+### More about history of creation 
+[INSPIRATION](INSPIRATION.md)
 
 ### What is Your Platform Today, what will be tommorow? 
 ![Platform](doc/img/icons8-pallet-100.png) 
