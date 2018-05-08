@@ -1,4 +1,21 @@
-# Problemy
+## The Idea of DevOps Tool
+devops github support tool Puppet Docker Jenkins Ansible
+DevOps tools support your DevOps initiatives
+CI and DevOps pipelines for GitHub
+
+The idea is to share for each other the easiest way to start use the new technologies in programming World.
++ For each problem is existing and tested solution -> Save Time by using DevOps Tool
+The cases when you are looking for solutions
+
+The New Environment
++ are you looking for some information about the environment?
++ how to install on your current system?
+
+The Old Environment 
++ are you looking for some version which is working, stable and usable?
+
+
+## Story
 Wszystko zaczelo sie od problemow
 Tym razem robilem update na serwerze wersji php z 7.0.26 do 7.2
 Niestety wtedy dopiero sie zaczely problemy,

@@ -3,38 +3,16 @@
     |__/ |___  \/  |__| |    ___] 
     
     DevOps Project Tool
+[Story about Inspiration](INSPIRATION.md)
 
-## The Idea of DevOps Tool
-devops github support tool Puppet Docker Jenkins Ansible
-DevOps tools support your DevOps initiatives
-CI and DevOps pipelines for GitHub
-
-The idea is to share for each other the easiest way to start use the new technologies in programming World.
-+ For each problem is existing and tested solution -> Save Time by using DevOps Tool
-The cases when you are looking for solutions
-
-The New Environment
-+ are you looking for some information about the environment?
-+ how to install on your current system?
-
-The Old Environment 
-+ are you looking for some version which is working, stable and usable?
-
-## What is DEVOPS    
-
-+ https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
-+ https://github.com/TechBookHunter/Free-DevOps-Books
-
-#### More about history of creation 
-[INSPIRATION](INSPIRATION.md)
-
-## What is Your Platform Today, what will be tommorow? 
+## Environment
+The DevOps Tool is not depend platform
+What is Your Platform Today, what will be tommorow?
+ 
 ![Platform](doc/img/icons8-pallet-100.png) 
 + Windows? 
 + Linux?
 + Mac OS?
-
-The DevOps Tool is not depend platform
 
 ### How to start
 ![Download](doc/img/icons8-download-100.png)
@@ -95,12 +73,12 @@ The basic command
     do composer version
     
 ##### Install
-![Install](doc/img/icons8-downloading-updates-96.png)
+![Install](./doc/img/icons8-downloading-updates-96.png){:height="50%" width="50%"}
     
     do composer install
            
 ##### Remove
-![remove](doc/img/icons8-close-window-100.png)
+![remove](doc/img/icons8-close-window-100.png){:height="50%" width="50%"}
 
     do composer remove
     
@@ -188,3 +166,9 @@ https://opencollective.com/opsdroid#backers
 Contributors
     
 https://github.com/opsdroid/opsdroid/blob/master/README.md
+
+
+## What is DEVOPS    
+
++ https://gist.github.com/jpswade/4135841363e72ece8086146bd7bb5d91
++ https://github.com/TechBookHunter/Free-DevOps-Books
