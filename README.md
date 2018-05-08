@@ -16,7 +16,7 @@ More about history of creation
 [INSPIRATION](INSPIRATION.md)
 
 
-### Your Platform 
+### What is Your Platform Today, what will be tommorow? 
 ![Platform](doc/img/icons8-pallet-100.png) 
 + Windows? 
 + Linux?
@@ -24,15 +24,76 @@ More about history of creation
 
 The DevOps Tool is not depends platform
 
+
+## Github Repository
+https://github.com/tom-sapletta-com/devops
+    
+http
+    
+    https://github.com/tom-sapletta-com/devops.git
+
+ssh
+    
+    git@github.com:tom-sapletta-com/devops.git
+    
+zip
+    
+    https://codeload.github.com/tom-sapletta-com/devops/zip/master
+    
 ### Download
 ![Download](doc/img/icons8-download-100.png)
 
-### Init
+How to download from github repository ?
+
+#### git clone
+    
+    git clone http://github.com/tom-sapletta-com/devops
+
+#### Another way
+
+##### over windows or Linux
+
+    powershell -Command "Invoke-WebRequest https://get.apicra.com -OutFile apicra.zip"
+ 
+    Invoke-WebRequest https://get.apicra.com -O apicra.zip
+ 
+    curl https://get.apicra.com -O apicra.zip
+ 
+    %extd% /download https://get.apicra.com apicra.zip
+ 
+##### unpack
+ 
+    unzip -l apicra.zip
+
+##### url for multi download 
+http://getall.apicra.com/
+
+* unpack.sh
+* unpack.bat
+* devops.zip
+
+After download, please execute one of file, depends OS
+Linux
+
+    unpack.sh
+    
+Windows
+    
+    unpack.bat
+ 
+And execute in console:
+
+He will unzip the files, if is not existing some solution for unpack, he will try to install on PC
+On he and will be possible to start app:
+[START](START.md)
+
+### How to use?
 
 ### Just do it
 
+    do
+    do info
     do install composer
-
 
 ### Architekture
 
@@ -52,7 +113,7 @@ Each Script works as an Application, whic can be started, stopped, ...
 #### Commmands
 
 The basic command
-
+ 
 ##### Help
 ![Help](doc/img/icons8-apk-100.png)
 
@@ -88,63 +149,6 @@ The basic command
 
 
 
-## Github Repository
-https://github.com/tom-sapletta-com/devops
-    
-http
-    
-    https://github.com/tom-sapletta-com/devops.git
-
-ssh
-    
-    git@github.com:tom-sapletta-com/devops.git
-    
-zip
-    
-    https://codeload.github.com/tom-sapletta-com/devops/zip/master
-
-## How to download
-
-### special multi download
-
-http://getall.apicra.com/
-
-* unpack.sh
-* unpack.bat
-* devops.zip
-
-After download, please execute one of file, depends OS
-Linux
-
-    unpack.sh
-    
-Windows
-    
-    unpack.bat
- 
-And execute in console:
-
-He will unzip the files, if is not existing some solution for unpack, he will try to install on PC
-On he and will be possible to start app:
-[START](START.md)
-
-#### git clone
-    
-    git clone http://github.com/tom-sapletta-com/devops
-
-#### download
-
-    powershell -Command "Invoke-WebRequest https://get.apicra.com -OutFile apicra.zip"
- 
-    Invoke-WebRequest https://get.apicra.com -O apicra.zip
- 
-    curl https://get.apicra.com -O apicra.zip
- 
-    %extd% /download https://get.apicra.com apicra.zip
- 
-#### unpack
- 
-    unzip -l apicra.zip
  
 ## How it works
 
