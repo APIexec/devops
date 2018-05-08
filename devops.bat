@@ -95,6 +95,7 @@ IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
 IF %command%==remove GOTO Remove
 IF %command%==on GOTO Source
+IF %command%==home GOTO Home
 
 :: :No2
 :: for %%i in (%*) do (
@@ -112,6 +113,10 @@ IF %command%==on GOTO Source
 ::  ECHO No param 2
 ::   .\os\version.bat
 :: GOTO End1
+
+:Home
+   cd %devops_path%
+GOTO End1
 
 :Demo
    .\windows\%ver%\%command%\%app%.bat
