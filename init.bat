@@ -8,9 +8,9 @@ echo.
 echo Initialisation ...
 SET var=%cd%
 ECHO %var%
-setx path "%path%;%var%
+setx path "%path%;%var%"
 call doskey do=%var%"\devops.bat" $*
 echo.
-echo Enjoy!
 call dir
-call cd devops
+echo Enjoy!
+::call cd devops

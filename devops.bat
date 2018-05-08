@@ -1,5 +1,5 @@
 @ECHO OFF &SETLOCAL
-set devops_path=%cd%
+set devops_path=%cd%\devops
 
 more %devops_path%\doc\logo\soft.txt
 echo DevOps Project Tool
