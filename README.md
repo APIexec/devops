@@ -5,6 +5,9 @@
     DevOps Project Tool
 
 ## The Idea of DevOps Tool
+devops github support tool Puppet Docker
+DevOps tools support your DevOps initiatives
+
 The idea is to share for each other the easiest way to start use the new technologies in programming World.
 + For each problem is existing and tested solution -> Save Time by using DevOps Tool
 The cases when you are looking for solutions
