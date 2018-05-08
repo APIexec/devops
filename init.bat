@@ -1,5 +1,5 @@
 @ECHO OFF &SETLOCAL
-set devops_path=C:\Users\tomaszsapletta\WebstormProjects\devops
+set devops_path=%cd%
 
 more %devops_path%\doc\logo\soft.txt
 echo DevOps Project Tool

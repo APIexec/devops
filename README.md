@@ -17,21 +17,8 @@ What is Your Platform Today, what will be tommorow?
 ### How to start
 ![Download](doc/img/icons8-download-100.png)
 
-##### Clone by Git
-   
-    git clone http://github.com/tom-sapletta-com/devops
-    cd devops
-    
-###### Update Files
-    update.bat 
-OR
-    
-    git pull origin master
-        
-##### OR download & unpack
-
-[How to download & install from github repository](INSTALL.md)
-
+#### Install over auto-installator
+https://github.com/tom-sapletta-com/do/
 
 ### Init
 Create the 'do' shortcut with [PATH](PATH.md)
