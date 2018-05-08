@@ -72,28 +72,48 @@ The basic command
     do composer doc
     do composer version
     
-##### Install
-![Install](./doc/img/icons8-downloading-updates-96.png){:height="50%" width="50%"}
-    
+##### Install 
+![Install](./doc/img/icons8-downloading-updates-96.png)
+        
+do **[application]** install
+
+Example:
+
     do composer install
            
 ##### Remove
-![remove](doc/img/icons8-close-window-100.png){:height="50%" width="50%"}
+![remove](doc/img/icons8-close-window-100.png)
 
+do **[application]** remove
+
+Example:
+    
     do composer remove
     
 ##### Start
 ![start](doc/img/icons8-start-100.png)
+
+do **[application]** start
+
+Example:
 
     do composer start
     
 ##### Stop
 ![stop](doc/img/icons8-home-button-100.png)
 
+do **[application]** stop
+
+Example:
+
     do composer stop 
 
 ##### ReStart
 ![restart](doc/img/icons8-restart-100.png)
+
+do **[application]** restart
+
+Example:
 
     do composer restart 
 
