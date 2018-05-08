@@ -1,7 +1,9 @@
 ## The Idea of DevOps Tool
-devops github support tool Puppet Docker Jenkins Ansible
+devops github support tool Puppet Docker Jenkins Ansible OpenStack Tracking Vagrant
 DevOps tools support your DevOps initiatives
 CI and DevOps pipelines for GitHub
+
+DevOps provides the framework and configuration to create and manage complete development environments over bash scripts. 
 
 The idea is to share for each other the easiest way to start use the new technologies in programming World.
 + For each problem is existing and tested solution -> Save Time by using DevOps Tool

@@ -10,3 +10,4 @@
 ::  > Generate and put auth to auth folder? / create manully now / get from predefined file?
 ::
 
+for /F "tokens=*" %%I in (C:\Users\tomaszsapletta\WebstormProjects\devops\config\vps\lab.txt) do set %%I

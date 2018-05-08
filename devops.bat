@@ -1,5 +1,5 @@
 @ECHO OFF &SETLOCAL
-set devops_path=C:\Users\tomaszsapletta\WebstormProjects\devops
+set devops_path=\Users\tomaszsapletta\WebstormProjects\devops
 
 more %devops_path%\doc\logo\soft.txt
 echo DevOps Project Tool
@@ -11,7 +11,8 @@ echo.
 :: COLOR [background][foreground]
 ::call color 02
 ::call color 0A
-call color 1F
+::call color 1F
+call color 09
 
 :: LOGS
 set log_file=%devops_path%\log\command.txt
@@ -50,6 +51,7 @@ set app=%2
 ::set "command="
 set command=%1
 set query=%3
+set params=%3 %4 %5
 set user_home_path=%USERPROFILE%
 set user_path=%homepath%
 set user_name=%homepath%
@@ -66,20 +68,22 @@ IF %app%=="" %command%=="" GOTO DevopsDocumentation
 :: set app=devops
 ::
 
-set app_path=%devops_path%\windows\%ver%\%app%
+set app_path=%devops_path%\windows\%ver%\%2
 IF NOT EXIST %app_path% GOTO PathNotExist
-set app_path_file=%app_path%\%command%.bat
+set app_path_file=%app_path%\%1.bat
 IF NOT EXIST %app_path_file% GOTO PathNotExist
+
+echo.
 
 IF %app%==doc call .\doc.bat
 IF %app%==google GOTO API
-IF %app%==create GOTO Create
 IF %app%==demo GOTO Demo
 
+IF %command%==create GOTO Create
 IF %command%==doc GOTO Documentation
 IF %command%==install GOTO Install
 IF %command%==remove GOTO Remove
-
+IF %command%==on GOTO Source
 
 :: :No2
 :: for %%i in (%*) do (
@@ -101,6 +105,16 @@ IF %command%==remove GOTO Remove
 :Demo
    .\windows\%ver%\%command%\%app%.bat
 GOTO End1
+
+
+:Source
+   ::echo Source
+   ::.\windows\%ver%\%command%\%app%.bat
+   set com=".\windows\%ver%\%2\%1.bat" $*
+   ::echo %com%
+   call %com%
+GOTO End1
+
 
 :Create
    ::.\windows\%ver%\%command%\%app%.bat
