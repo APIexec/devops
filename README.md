@@ -109,7 +109,8 @@ The library give you scripts to execute step on your new PC with Windows or Linu
 
 Each Script works as an Application, whic can be started, stopped, ...
 
-#### Commmands
+#### Commmands Example with Application Script for Composer
+![Composer](doc/img/logo-composer-transparent2.png)
 
 The basic command
  
@@ -119,6 +120,7 @@ The basic command
     do composer help
     do composer info
     do composer doc
+    do composer version
     
 ##### Install
 ![Install](doc/img/icons8-downloading-updates-96.png)
