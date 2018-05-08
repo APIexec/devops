@@ -48,17 +48,42 @@ The DevOps Tool is not depends platform
 ![Apk](doc/img/icons8-apk-100.png)
 
 Each Script works as an Application, whic can be started, stopped, ...
-Commmands:
+
+#### Commmands
+
+The basic command
+
+##### Help
+![Help](doc/img/icons8-apk-100.png)
+
+    do composer help
+    do composer info
+    do composer doc
+    
 ##### Install
 ![Install](doc/img/icons8-downloading-updates-96.png)
+    
+    do composer install
+           
 ##### Remove
 ![remove](doc/img/icons8-close-window-100.png)
+
+    do composer remove
+    
 ##### Start
 ![start](doc/img/icons8-start-100.png)
+
+    do composer start
+    
 ##### Stop
 ![stop](doc/img/icons8-home-button-100.png)
+
+    do composer stop 
+
 ##### ReStart
 ![restart](doc/img/icons8-restart-100.png)
+
+    do composer restart 
 
 
 
