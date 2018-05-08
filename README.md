@@ -61,49 +61,17 @@ How to download from github repository ?
     
     git clone http://github.com/tom-sapletta-com/devops
 
-#### Another way
+More ways to [INSTALL](INSTALL.md)
 
-##### over windows or Linux
-
-    powershell -Command "Invoke-WebRequest https://get.apicra.com -OutFile apicra.zip"
- 
-    Invoke-WebRequest https://get.apicra.com -O apicra.zip
- 
-    curl https://get.apicra.com -O apicra.zip
- 
-    %extd% /download https://get.apicra.com apicra.zip
- 
-##### unpack
- 
-    unzip -l apicra.zip
-
-##### url for multi download 
-http://getall.apicra.com/
-
-* unpack.sh
-* unpack.bat
-* devops.zip
-
-After download, please execute one of file, depends OS
-Linux
-
-    unpack.sh
+#### Initialisation
+shortcut with [PATH](PATH.md)
+try to use own extension if 'do' is busy on your system
     
-Windows
-    
-    unpack.bat
- 
-And execute in console:
-
-He will unzip the files, if is not existing some solution for unpack, he will try to install on PC
-On he and will be possible to start app:
-[START](START.md)
-
-### How to use?
+    init.bat
+       
+### Just do it
 Now, you can easy improve your skills at work day by day as a DevOps!
 Let's start your new project and enjoy!
-
-### Just do it
 
     do
     do info
@@ -163,37 +131,23 @@ The basic command
 
     do composer restart 
 
-
-
-
  
-## How it works
+## Google API
 
 url for browser [Documentation](https://github.com/tom-sapletta-com/devops) or command
 
-    devops.bat doc
-
-    devops.bat doc api
-    
-    devops.bat api google doc
-    
-    devops.bat api google searching doc
-    
-    devops.bat doc example
-    
-    devops.bat api google searching example
-
-#### Shortcut with [PATH](PATH.md)
-    
-    setx path "%path%;C:\Users\tomaszsapletta\WebstormProjects\devops
-    call doskey do="C:\Users\tomaszsapletta\WebstormProjects\devops\devops.bat" $*
-
-#### Example with Shortcut
-    
     do doc
+
+    do doc api
     
-    do install composer
+    do api google doc
     
+    do api google searching doc
+    
+    do doc example
+    
+    do api google searching example
+  
 
 ## How to use
 What you can install
@@ -239,5 +193,10 @@ How to start Example project application
     
     Can be updated by documentation, half automatisation, with reviev and docker testing
     
+## TODO
+conribute
+https://opencollective.com/opsdroid#backers
     
+Contributors
     
+https://github.com/opsdroid/opsdroid/blob/master/README.md
