@@ -12,7 +12,7 @@ echo.
 ::call color 02
 ::call color 0A
 ::call color 1F
-call color 09
+call color 0A
 
 :: LOGS
 set log_file=%devops_path%\log\command.txt
