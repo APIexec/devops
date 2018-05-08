@@ -11,8 +11,10 @@ echo DevOps Project Tool
 call color 1F
 
 :: LOGS
-set line=abcd
-::TYPE %line% >> command.txt
+set log_file=log\command.txt
+set log_time=%time% < nul
+set log_content=do %1 %2 %3
+echo %log_time% %log_content% >> %log_file%
 
 :: Detect system
 SET /a count=5
