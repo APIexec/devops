@@ -1,6 +1,9 @@
 @ECHO OFF &SETLOCAL
-more doc\logo\starwars.txt
+set devops_path=C:\Users\tomaszsapletta\WebstormProjects\devops
+
+more %devops_path%\doc\logo\soft.txt
 echo DevOps Project Tool
+echo.
 
 :: set default path
 
@@ -11,7 +14,7 @@ echo DevOps Project Tool
 call color 1F
 
 :: LOGS
-set log_file=log\command.txt
+set log_file=%devops_path%\log\command.txt
 set log_time=%time% < nul
 set log_content=do %1 %2 %3
 echo %log_time% %log_content% >> %log_file%
@@ -52,14 +55,12 @@ set user_path=%homepath%
 set user_name=%homepath%
 set os_partition=%systemdrive%
 set os_path=%systemdrive%%homepath%
-set devops_path=C:\Users\tomaszsapletta\WebstormProjects\devops
+
 
 for /f "tokens=4-7 delims=[.] " %%i in ('ver') do (if %%i==Version (set v=%%j.%%k) else (set v=%%i.%%j))
 IF %v%==10.0 set ver=10
 
 ::echo .\windows\%ver%\%app%\%command%.bat
-echo [101;93m DEVOPS [0m
-echo regular text \[\033[0;32m\] green text \[\033[m\] regular text again
 
 IF %app%=="" %command%=="" GOTO DevopsDocumentation
 :: set app=devops
@@ -124,7 +125,7 @@ GOTO End1
   ::cls
   IF %v%==10.0 set ver=10
   set com=%devops_path%"\windows\%ver%\devops\doc.bat"
-  echo %com%
+  ::echo %com%
   call %com%
 GOTO End1
 
@@ -171,4 +172,5 @@ GOTO End1
 
 
 :End1
-echo Bye
+echo.
+echo END
