@@ -1,5 +1,5 @@
 @ECHO OFF &SETLOCAL
-more logo.txt
+more doc\logo\starwars.txt
 echo DevOps Project Tool
 
 :: set default path

@@ -1,6 +1,8 @@
 # TODO list of DevOps Project Tool
 
 - [x] Environment with docker for Debian, Ubuntu, Raspbian, Windows
+- [x] Create Logs
+- [ ] Show Logs
 - [ ] Testing
 - [ ]  CI on github
 - [ ]  Integration with ProjektManager
