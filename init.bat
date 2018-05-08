@@ -12,4 +12,4 @@ setx path "%path%;%var%
 call doskey do=%var%"\devops.bat" $*
 echo.
 echo Enjoy!
-cd %var%
+cd devops
