@@ -1,4 +1,7 @@
 @ECHO OFF &SETLOCAL
+more logo.txt
+echo DevOps Project Tool
+
 :: set default path
 
 :: change Color
@@ -6,6 +9,10 @@
 ::call color 02
 ::call color 0A
 call color 1F
+
+:: LOGS
+set line=abcd
+::TYPE %line% >> command.txt
 
 :: Detect system
 SET /a count=5
@@ -112,7 +119,7 @@ GOTO End1
 
 
 :DevopsDocumentation
-  cls
+  ::cls
   IF %v%==10.0 set ver=10
   set com=%devops_path%"\windows\%ver%\devops\doc.bat"
   echo %com%
@@ -120,7 +127,7 @@ GOTO End1
 GOTO End1
 
 :Documentation
-  cls
+  ::cls
   IF %v%==10.0 set ver=10
   set com=".\windows\%ver%\%app%\%command%.bat" $*
   echo %com%
