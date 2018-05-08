@@ -1,8 +1,7 @@
 @ECHO OFF &SETLOCAL
-set devops_path=%cd%\devops
 ::echo %HOMEPATH%\path.txt
-
-::setlocal enableextensions enabledelayedexpansion
+setlocal enableextensions enabledelayedexpansion
+set devops_path=%cd%\devops
 ::set firstLine=1
 for /f "delims=" %%i in (%HOMEPATH%\path.txt) do (
     ::if !firstLine!==1 set devops_path=%%i
