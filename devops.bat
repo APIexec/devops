@@ -1,18 +1,14 @@
 @ECHO OFF &SETLOCAL
 ::echo %HOMEPATH%\path.txt
 ::setlocal enableextensions enabledelayedexpansion
-set devops_path=%cd%\devops
-::set firstLine=1
-for /f "delims=" %%i in (%HOMEPATH%\path.txt) do (
-    ::if !firstLine!==1 set devops_path=%%i
-    ::set firstLine=0
-    set devops_path=%%i
-)
+::set devops_path=%cd%\devops
+::for /f "delims=" %%i in (%HOMEPATH%\path.txt) do (
+::    set devops_path=%%i
+::)
 ::endlocal
 
 
-
-more %devops_path%\doc\logo\soft.txt
+more %DEVOPSPATH%\doc\logo\soft.txt
 echo DevOps Project Tool
 echo.
 
@@ -26,7 +22,7 @@ echo.
 call color 0A
 
 :: LOGS
-set log_file=%devops_path%\log\command.txt
+set log_file=%DEVOPSPATH%\log\command.txt
 set log_time=%time% < nul
 set log_content=do %1 %2 %3
 echo %log_time% %log_content% >> %log_file%
@@ -77,6 +73,7 @@ IF %v%==10.0 set ver=10
 
 :: One Param Command
 IF %command%==home GOTO Home
+IF %command%==who GOTO WhoIs
 IF %app%=="" %command%=="" GOTO DevopsDocumentation
 :: set app=devops
 ::
@@ -85,7 +82,7 @@ IF %app%=="" %command%=="" GOTO DevopsDocumentation
 
 
 :: Multi Paramn Command
-set app_path=%devops_path%\windows\%ver%\%2
+set app_path=%DEVOPSPATH%\windows\%ver%\%2
 IF NOT EXIST %app_path% GOTO PathNotExist
 set app_path_file=%app_path%\%1.bat
 IF NOT EXIST %app_path_file% GOTO PathNotExist
@@ -119,8 +116,13 @@ IF %command%==doc GOTO Documentation
 ::   .\os\version.bat
 :: GOTO End1
 
+:WhoIs
+echo %USERNAME%
+GOTO End1
+
+
 :Home
-cd %devops_path%
+cd %DEVOPSPATH%
 GOTO End1
 
 :Demo
@@ -150,7 +152,7 @@ GOTO End1
 GOTO End1
 
 :Remove
-    set com=%devops_path%\windows\%ver%\%app%\%command%.bat
+    set com=%DEVOPSPATH%\windows\%ver%\%app%\%command%.bat
     echo %com%
     call %com%
 GOTO End1
@@ -159,7 +161,7 @@ GOTO End1
 :DevopsDocumentation
   ::cls
   IF %v%==10.0 set ver=10
-  set com=%devops_path%"\windows\%ver%\devops\doc.bat"
+  set com=%DEVOPSPATH%"\windows\%ver%\devops\doc.bat"
   ::echo %com%
   call %com%
 GOTO End1
