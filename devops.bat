@@ -7,6 +7,14 @@
 ::)
 ::endlocal
 
+:: Init
+IF "%DEVOPSPATH%"=="" (
+SET DEVOPSPATH=%cd%
+setx path "%path%;%DEVOPSPATH%"
+call doskey do=%DEVOPSPATH%"\devops.bat" $*
+)
+
+
 
 more %DEVOPSPATH%\doc\logo\soft.txt
 echo DevOps Project Tool

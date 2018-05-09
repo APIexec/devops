@@ -1,5 +1,5 @@
 ## The Idea of DevOps Tool
-devops github support tool Puppet Docker Jenkins Ansible OpenStack Tracking Vagrant
+devops github support tool Puppet Docker Jenkins Ansible OpenStack Tracking Vagrant Choco Puppet
 DevOps tools support your DevOps initiatives
 CI and DevOps pipelines for GitHub
 
@@ -41,3 +41,6 @@ tutorial dla uzywajacych tego narzedzia
 
 screen imgae animation dla tych, ktorzy by chcieli tego uzywac, lub maja pytania
 
+
+## Projects
+https://chocolatey.org/packages/curl

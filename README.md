@@ -20,6 +20,24 @@ What is Your Platform Today, what will be tommorow?
 #### Install over auto-installator
 https://github.com/tom-sapletta-com/do/
 
+Download file install.bat from http:\\install.apicra.com
+    
+    powershell.exe -Command (iwr -outf install.bat http:\\install.apicra.com)
+    install.bat
+    
+Another
+    
+    powershell.exe -Command (Invoke-WebRequest -OutFile install.bat http:\\install.apicra.com)
+        
+    wget ftp://install.apicra.com
+    iwr -outf install.bat http://install.apicra.com
+    http-ping.exe -n 1 http://www.google.com/ -f google.html
+    ping -n 1 https://www.google.com -f google.html
+    ping install.apicra.com -n 1 >> install.bat        
+    powershell.exe -Command (Invoke-WebRequest -Uri install.apicra.com -OutFile)
+    
+    WebClient.DownloadFile("http://url",(pwd).path+"\relative-file.txt")
+
 ### Init
 Create the 'do' shortcut with [PATH](PATH.md)
 try to use own extension if 'do' is busy on your system
