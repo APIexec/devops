@@ -8,9 +8,14 @@ echo Initialisation ...
 ::path
 ::echo %DEVOPSPATH% > %HOMEPATH%\path.txt
 
-
+:: https://de.wikipedia.org/wiki/Umgebungsvariable
+export DEVOPSPATH
 ECHO %DEVOPSPATH%
-setx path "%path%;%DEVOPSPATH%"
+call reg query HKEY_CURRENT_USER\Environment
+reg query HKEY_CURRENT_USER\Environment /v DEVOPSPATH
+
+setx DEVOPSPATH %DEVOPSPATH%
+::call setx path "%path%;%DEVOPSPATH%"
 call doskey do=%DEVOPSPATH%"\devops.bat" $*
 echo.
 call dir
