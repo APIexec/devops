@@ -21,3 +21,7 @@ echo.
 call dir
 echo Enjoy!
 ::call cd devops
+
+::.\pop.vbs
+call cscript pop.vbs
+::x=msgbox("Thank You For DevOps Installation", Button+Icon, "Devops Tool")
