@@ -1,6 +1,7 @@
 ## The Idea of DevOps Tool
-devops github support tool Puppet Docker Jenkins Ansible OpenStack Tracking Vagrant Choco Puppet
+devops github support tool Puppet Docker Jenkins Ansible OpenStack Tracking Vagrant Choco Composer
 DevOps tools support your DevOps initiatives
+Dependency Manager
 CI and DevOps pipelines for GitHub
 
 DevOps provides the framework and configuration to create and manage complete development environments over bash scripts. 
