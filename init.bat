@@ -1,14 +1,13 @@
 @ECHO OFF
-set devops_path=%cd%
-::echo %devops_path%
+SET DEVOPSPATH=%cd%
 
-more %devops_path%\doc\logo\soft.txt
+more %DEVOPSPATH%\doc\logo\soft.txt
 echo DevOps Project Tool
 echo.
 echo Initialisation ...
-SET DEVOPSPATH=%cd%
 ::path
-echo %DEVOPSPATH% > %HOMEPATH%\path.txt
+::echo %DEVOPSPATH% > %HOMEPATH%\path.txt
+
 
 ECHO %DEVOPSPATH%
 setx path "%path%;%DEVOPSPATH%"

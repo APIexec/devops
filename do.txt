@@ -1,0 +1,17 @@
+echo (
+WHERE do
+IF %ERRORLEVEL%==0 GOTO AppDo
+call %DEVOPSPATH%\init.bat
+:AppDo
+call %DEVOPSPATH%\devops.bat $*
+setx path "%path%;%DEVOPSPATH%"
+call doskey do=%DEVOPSPATH%"\devops.bat" $*
+) > %HOMEPATH%\do.bat
+
+WHERE do
+IF %ERRORLEVEL%==0 GOTO AppDo
+cd C:\Users\tomaszsapletta\WebstormProjects\devops
+call C:\Users\tomaszsapletta\WebstormProjects\devops\init.bat
+
+:AppDo
+cd C:\Users\tomaszsapletta\WebstormProjects\devops
