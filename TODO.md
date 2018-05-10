@@ -15,5 +15,9 @@ http://www.bat2exe.net/
 - [ ] Implementation versioning for modules, and install the newest when is not defined
 
 - [ ]  logi, kolejne dzialanie jakie podjalem
-
-
+- [ ] JAVA: install, reinstall, update
+- [ ] phpbrew
+- [ ] JSON reader
+- [ ] prepare GUI
+- [ ] synchronisation with GUI
+- [ ] 
