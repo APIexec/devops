@@ -20,9 +20,9 @@ What is Your Platform Today, what will be tommorow?
 #### Install over auto-installator
 https://github.com/tom-sapletta-com/do/
 
-Download file install.bat from http:\\install.apicra.com
+Download file install.bat from http://install.apicra.com
     
-    powershell.exe -Command (iwr -outf install.bat http:\\install.apicra.com)
+    powershell.exe -Command (iwr -outf install.bat http://install.apicra.com)
     install.bat
     
 Another
