@@ -20,4 +20,6 @@ http://www.bat2exe.net/
 - [ ] JSON reader
 - [ ] prepare GUI
 - [ ] synchronisation with GUI
-- [ ] 
+- [ ] How to make a screenshot in console
+- [ ] animation for console commands, text from logs -> svg -> png animation
+
