@@ -1,5 +1,7 @@
 # TODO list of DevOps Project Tool
 
+
+## CORE
 - [x] Environment with docker for Debian, Ubuntu, Raspbian, Windows
 - [x] Create Logs
 - [ ] Show Logs
@@ -23,3 +25,7 @@ http://www.bat2exe.net/
 - [ ] How to make a screenshot in console
 - [ ] animation for console commands, text from logs -> svg -> png animation
 
+
+## MODULES
+
+- [ ] git install, init project, ssh
