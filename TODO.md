@@ -46,17 +46,25 @@ http://www.bat2exe.net/
 - [ ] scripts for reading Fails, Errors, Warnings and trying to find Solution over API, the result should be script
 - [ ] Implementation versioning for modules, and install the newest when is not defined
 - [ ] Tags, Descriptions, for fast searching, e.g. How to install docker? - dot install docker
+- [ ] KeePass 2 for passwords and SSL 
+- [ ] Module for rsync
+- [ ] Module for communications between servers
 
 ## Plugins
-#### Browser
-+ Chrome, Firefox, IE
-+ clickable command line
-+ scrennshoot
+#### Support for Browsers
+- [ ] Chrome
+- [ ] Firefox
+- [ ] IE
+Functionality
 
-#### IDE
-+ Sublime
-+ VisualStudioCode
-+ JetBrains
+- [ ] clickable command line
+- [ ] make a scrennshoots
+
+
+#### Support in IDE for Apicra solutions
+- [ ] Sublime
+- [ ] VisualStudioCode
+- [ ] JetBrains
 
 
 ## Another Project
