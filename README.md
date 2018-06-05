@@ -5,10 +5,16 @@
     DevOps Project Tool
 [Story about Inspiration](INSPIRATION.md)
 
-## Environment
-The DevOps Tool is not depend platform
-What is Your Platform Today, what will be tommorow?
+## Apicra
+Apicra is ecosystem for DEVOPS services: Manager for installation, for install any Apicra Solutions, such DevOpsTool, DevopsGUI, Devops Examples, Tutorials, Courses
++ DOT = DevOpsTool
  
+
+## Environment
+The DevOps Tool is not depending from platform
+What is Your Platform Today, what will be tommorow?
+
+
 ![Platform](doc/img/icons8-pallet-100.png) 
 + Windows? 
 + Linux?
