@@ -24,3 +24,27 @@ sudo apt-get install php7.2-curl php7.2-xml php7.2-zip php7.2-gd php7.2-mysql ph
 
 # Lets finish by restarting our server!
 sudo shutdown -r now
+
+
+
+# Upgrade Apache2
+
+    apt update
+    apt-get install software-properties-common python-software-properties
+    add-apt-repository ppa:git-core/ppa
+
+## Install git
+
+    apt install git
+
+## Install PHP 7
+    add-apt-repository ppa:ondrej/php
+    apt-get update
+    apt-get install php7.0 php5.6 php5.6-mysql php-gettext php5.6-mbstring php-xdebug libapache2-mod-php5.6 libapache2-mod-php7.0 php5.6-curl php5.6-gd php5.6-mcrypt php5.6-xml php5.6-xmlrpc
+
+## PHP 5.6 => 7.0
+
+    a2dismod php5
+    a2enmod php7.0
+    service apache2 restart
+    update-alternatives --set php /usr/bin/php7.0

@@ -66,6 +66,5 @@ Functionality
 - [ ] VisualStudioCode
 - [ ] JetBrains
 
-
 ## Another Project
 - [x] prepare GUI
