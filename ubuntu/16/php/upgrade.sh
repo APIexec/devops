@@ -1,0 +1,1 @@
+https://thishosting.rocks/install-php-on-ubuntu/
