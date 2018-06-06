@@ -48,3 +48,14 @@ sudo shutdown -r now
     a2enmod php7.0
     service apache2 restart
     update-alternatives --set php /usr/bin/php7.0
+
+
+## https://tecadmin.net/switch-between-multiple-php-version-on-ubuntu/
+sudo a2dismod php7.2
+sudo a2enmod php5.6
+sudo service apache2 restart
+sudo update-alternatives --set php /usr/bin/php5.6
+sudo update-alternatives --set phar /usr/bin/phar5.6
+sudo update-alternatives --set phar.phar /usr/bin/phar.phar5.6
+sudo update-alternatives --set phpize /usr/bin/phpize5.6
+sudo update-alternatives --set php-config /usr/bin/php-config5.6
