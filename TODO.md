@@ -1,5 +1,8 @@
 # TODO list of DevOps Project Tool
 
+* [06.2018.md](06.2018.md)
+* [05.2018.md](05.2018.md)
+
 ## Installer
 - [ ]  Script to exe and linux package converter
 http://www.bat2exe.net/
