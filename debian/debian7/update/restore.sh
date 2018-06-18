@@ -1,1 +1,0 @@
-:: TODO: Restore the backup of application
