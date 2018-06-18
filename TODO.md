@@ -32,6 +32,8 @@ http://www.bat2exe.net/
 - [ ] Testing
 - [ ] hints, logs, kolejne dzialanie jakie podjalem
 - [ ] JSON reader for config
+- [ ] Move /app to devops-manager
+- [ ] Move all settings, cache to devops-storage
 
 ## Automatisation
 - [ ]  CI on github
