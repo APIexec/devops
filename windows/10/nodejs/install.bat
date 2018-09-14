@@ -1,0 +1,1 @@
+:: devops.bat install php
