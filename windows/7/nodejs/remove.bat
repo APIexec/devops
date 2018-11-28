@@ -1,0 +1,1 @@
+php -r "unlink('composer.phar');"
