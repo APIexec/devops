@@ -67,7 +67,7 @@ The library give you scripts to execute step on your new PC with Windows or Linu
 
     Because it's simple: Everyone can read, modify or extend it
     It runs on every Windows system without any prerequisites
-    It is closest to a real attacker working on the command line
+    It is closest to a real DevOps working on the command line
 
 
 #### Layers
