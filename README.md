@@ -16,7 +16,7 @@ What is Your Platform Today, what will be tommorow?
 
 
 ![Platform](doc/img/icons8-pallet-100.png) 
-+ Windows? 
++ Windows [environment](doc/windows.md) 
 + Linux?
 + Mac OS?
 
