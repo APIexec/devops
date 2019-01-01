@@ -1,4 +1,8 @@
-### variables
+# Windows 
+
+## commands
+
+### environment variables
 https://www.tenforums.com/tutorials/3234-environment-variables-windows-10-a.html
 
 <table class="cms_table_grid" width="1000"><tbody><tr class="cms_table_grid_tr" style="background-color: #CCCCCC" valign="top"><td class="cms_table_grid_td"><font size="5"><b>Environment Variables</b></font></td>
